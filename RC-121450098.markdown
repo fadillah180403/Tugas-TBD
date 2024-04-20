@@ -766,7 +766,7 @@ plot_with_legend(
 ![alt text](gambar3.png)
 ![alt text](gambar4.png)
 
-Dari grafik diketahui bahwa kemampuan membaca gambar oleh HDF5 cenderenung naik kemudian konstan. Sedangkan PNG akan terus naik secara linear dimulai dari banyaknya gambar yang diproses. Hal ini tentunya sangat berbedan dengan LMDB yang mana cenderung kostan baik pada pembacaan gambar sedikit sampai banyak sekalipun. Ini berkesusaian pada output waktu eksekusi tadi yang menunjukkan keteraturan waktu eksekusi sepanjang banyaknya gambar yang dibaca oleh LMDB.
+Dari grafik diketahui bahwa kemampuan membaca gambar oleh HDF5 cenderung naik kemudian konstan. Sedangkan PNG akan terus naik secara linear dimulai dari banyaknya gambar yang diproses. Hal ini tentunya sangat berbedan dengan LMDB yang mana cenderung kostan baik pada pembacaan gambar sedikit sampai banyak sekalipun. Ini berkesusaian pada output waktu eksekusi tadi yang menunjukkan keteraturan waktu eksekusi sepanjang banyaknya gambar yang dibaca oleh LMDB.
 
 ![alt text](gambar5.png)
 
